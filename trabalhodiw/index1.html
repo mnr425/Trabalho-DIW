@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mateus Neiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#repositorios">Repositórios</a></li>
+                <li><a href="#conteudo">Conteúdo Sugerido</a></li>
+                <li><a href="#colegas">Colegas de Trabalho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Seção 1: Perfil do Usuário -->
+        <section id="perfil">
+            <h2>Perfil do Usuário</h2>
+            <div id="user-profile"></div>
+            <h2>Mateus Neiva Rodrigues</h2>
+            <p>Estudante de Ciência da Computação PUC Minas.</p>
+            <p>Location: Belo Horizonte, MG, Brazil</p>
+        </section>
+        <!-- Seção 2: Repositórios -->
+        <section id="repositorios">
+            <h2>Repositórios</h2>
+            <div id="repo-cards" class="card-deck"></div>
+        </section>
+        <!-- Seção 3: Conteúdo Sugerido -->
+        <section id="conteudo">
+            <h2>Conteúdo Sugerido</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" id="carousel-indicators"></ol>
+                <div class="carousel-inner" id="carousel-inner"></div>
+                <a href="http://labp2d.joinville.udesc.br/erad2021/"></a>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    <a href=https://www.educompbrasil.org/simposio/2022></a>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    <a href="https://www.sbc.org.br/33-premios/2398-melhores-artigos-eventos-2022"></a>
+                </a>
+            </div>
+        </section>
+        <!-- Seção 4: Colegas de Trabalho -->
+        <section id="colegas">
+            <h2>Colegas de Trabalho</h2>
+            <div id="colegas-grid" class="row"></div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imgs/000_34LD86Q-2.webp" class="d-block w-100" alt="Cristiano Ronaldo" width="100" height="100" >
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/2021-01-07-kanye-west.webp" class="d-block w-100" alt="Kanye West" width="100" height="100">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/craque-neto.webp" class="d-block w-100" alt="Craque Neto" width="100" height="100">
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Informações sobre o responsável pelo site: Mateus Neiva</p>
+        <p>Estudante de Ciência da Computação PUC Minas.</p>
+        <p>Location: Belo Horizonte, MG, Brazil</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

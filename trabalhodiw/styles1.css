@@ -1,0 +1,238 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Perfil do usuário */
+#user-profile {
+    text-align: center;
+}
+
+#user-profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#user-profile h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#user-profile p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#user-profile a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#user-profile a:hover {
+    background-color: #0056b3;
+}
+
+/* Cards de Repositórios */
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.card-deck .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-deck .card-body {
+    text-align: center;
+}
+
+.card-deck .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card-deck .card-text {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.card-deck .btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.card-deck .btn:hover {
+    background-color: #218838;
+}
+
+/* Carrossel de Conteúdo Sugerido */
+.carousel-inner .carousel-item {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.carousel-inner .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.carousel-inner .carousel-caption h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.carousel-inner .carousel-caption p {
+    font-size: 1em;
+}
+
+/* Colegas de Trabalho */
+#colegas-grid .card {
+    margin-bottom: 20px;
+}
+
+#colegas-grid .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#colegas-grid .card-body {
+    text-align: center;
+}
+
+#colegas-grid .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#colegas-grid .btn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#colegas-grid .btn:hover {
+    background-color: #117a8b;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Detalhes do Repositório */
+#repo-details {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#repo-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#repo-details img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#repo-details p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#repo-details a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px;
+}
+
+#repo-details a:hover {
+    background-color: #0056b3;
+}

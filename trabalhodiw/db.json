@@ -1,0 +1,108 @@
+{
+  "profile": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "name": "Mateus Neiva",
+      "bio": "Estudante de Ciência da Computação PUC Minas",
+      "location": "Belo Horizonte, MG, Brazil",
+      "site": "https://pucminas.br",
+      "html_url": "https://github.com/mnr425"
+  },
+  "repositories": [
+      {
+          "id": 1,
+          "name": "Repositório 1",
+          "description": "Descrição do repositório 1.",
+          "stargazers_count": 5,
+          "forks_count": 3,
+          "watchers_count": 8,
+          "html_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 2,
+          "name": "Repositório 2",
+          "description": "Descrição do repositório 2.",
+          "stargazers_count": 2,
+          "forks_count": 1,
+          "watchers_count": 0,
+          "html_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 3,
+          "name": "Repositório 3",
+          "description": "Descrição do repositório 3.",
+          "stargazers_count": 8,
+          "forks_count": 5,
+          "watchers_count": 1,
+          "html_url": "https://github.com/mnr425"
+      }
+  ],
+  "suggested_content": [
+      {
+          "id": 1,
+          "title": "Artigo 1",
+          "description": "Descrição do artigo 1",
+          "image_url": "https://via.placeholder.com/150",
+          "content_url": "http://labp2d.joinville.udesc.br/erad2021/"
+      },
+      {
+          "id": 2,
+          "title": "Artigo 2",
+          "description": "Descrição do artigo 2",
+          "image_url": "https://www.educompbrasil.org/simposio/2022/",
+          "content_url": "#"
+      },
+      {
+          "id": 3,
+          "title": "Artigo 3",
+          "description": "Descrição do artigo 3",
+          "image_url": "https://www.educompbrasil.org/simposio/2022/",
+          "content_url": "#"
+      },
+      {
+          "id": 4,
+          "title": "Artigo 4",
+          "description": "Descrição do artigo 4",
+          "image_url": "https://www.sbc.org.br/33-premios/2398-melhores-artigos-eventos-2022",
+          "content_url": "#"
+      },
+      {
+          "id": 5,
+          "title": "Artigo 5",
+          "description": "Descrição do artigo 5",
+          "image_url": "https://csbc.sbc.org.br/2022/",
+          "content_url": "#"
+      }
+  ],
+  "colleagues": [
+      {
+          "id": 1,
+          "name": "Colega 1",
+          "photo_url": "trabalhodiw/imgs/craque-neto.webp",
+          "github_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 2,
+          "name": "Colega 2",
+          "photo_url": "trabalhodiw/imgs/2021-01-07-kanye-west.webp",
+          "github_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 3,
+          "name": "Colega 3",
+          "photo_url": "trabalhodiw/imgs/000_34LD86Q-2.webp",
+          "github_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 4,
+          "name": "Colega 4",
+          "photo_url": "https://via.placeholder.com/150",
+          "github_url": "https://github.com/mnr425"
+      },
+      {
+          "id": 5,
+          "name": "Colega 5",
+          "photo_url": "https://via.placeholder.com/150",
+          "github_url": "https://github.com/mnr425"
+      }
+  ]
+}
